@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jiuyuan?serverTimezone=GMT%2B8
+    username: root
+    password: 12345
+
+#mybatis:
+#  mapper-locations: classpath:com/jiuyuan/mapper/*.xml
+#  type-aliases-package: com.jiuyuan.entity
